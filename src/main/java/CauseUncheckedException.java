@@ -14,6 +14,11 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        // I threw artihmetic already, lets try array out of bounds
+        int[] placement = new int[]{1,2,3,4};
+        System.out.println(placement[5]);
+
+        
 
     }
 }
